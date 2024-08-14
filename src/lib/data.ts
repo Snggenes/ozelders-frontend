@@ -2,378 +2,378 @@ export const categories = [
   {
     id: "1",
     label: "Matematik",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "2",
     label: "Fizik",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "3",
     label: "Kimya",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "4",
     label: "Biyoloji",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "5",
     label: "Tarih",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "6",
     label: "Coğrafya",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "7",
     label: "İngilizce",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     id: "8",
     label: "Türkçe",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Edebiyat",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Din Kültürü ve Ahlak Bilgisi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "T.C. İnkılap Tarihi ve Atatürkçülük",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Görsel Sanatlar",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Müzik",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Beden Eğitimi ve Spor",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Bilgisayar Bilimi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Kodlama ve Programlama",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Rehberlik ve Kariyer Planlama",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Psikoloji",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Sosyoloji",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Mantık",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İstatistik",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Astronomi ve Uzay Bilimleri",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Drama",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Girişimcilik",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Osmanlı Türkçesi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İslam Kültür ve Medeniyeti",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İslam Bilim Tarihi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Sağlık Bilgisi ve Trafik Kültürü",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Diksiyon ve Hitabet",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Özel Eğitim",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Çocuk Gelişimi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Ödev Destek",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Spor",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Yetenek Sınavları",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Oyun - Hobi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Sağlık",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Eğitim Bilimleri",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Turizm",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Hukuk",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Muhasebe ve Finans",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İktisat",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Ekonomi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Uluslararası İlişkiler",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Direksiyon",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Mimarlık - Mimari",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Dans",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Eğitimde Teknoloji Kullanımı",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Kişisel Gelişim",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Kaligrafi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Güzellik ve Bakım",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Dijital Vatandaşlık",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Akıl ve Zeka Oyunları",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Robotik Kodlama",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Stem Eğitimi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Aşçılık - Gastronomi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Çocuk Bakımı",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Kur-an Okuma Dersleri",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Basın ve Halkla İlişkiler",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Havacılık",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Emlak Danışmanlığı",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Teknik Çizim",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Çevre ve Doğa Bilimleri",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Yenilenebilir Enerji ve Sürdürülebilirlik",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Eğitimde Yapay Zeka Kullanımı",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Yoga ve Meditasyon",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Sosyal Medya Yönetimi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "E-Ticaret ve Dijital Pazarlama",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Fotoğrafçılık ve Video Prodüksiyonu",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İletişim Becerileri",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İşaret Dili Eğitimi",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Zihin Haritalama ve Hafıza Teknikleri",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Kariyer Planlama ve İşe Alım Danışmanlığı",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Girişimcilik ve İnovasyon",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İspanyolca",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İtalyanca",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Rusça",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Çince (Mandarin)",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Japonca",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Korece",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Arapça",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Portekizce",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Farsça",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Hintçe",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Türkçe (Yabancılar için Türkçe Eğitimi)",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İbranice",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Yunanca",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Lehçe (Polonya Dili)",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "İsveççe",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Fince",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Norveççe",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Danca",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   {
     label: "Felemenkçe",
-    icon: "/logo.svg",
+    icon: "/logo.png",
   }
 ];
 

@@ -3,7 +3,6 @@ import { Checkbox } from "./ui/checkbox";
 import { format } from "date-fns";
 import {
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -117,11 +116,12 @@ type TFormCheckbox = {
   name: string;
   items: any[];
   placeholder: string;
+  className?:string
 };
 
-export function FormCheckbox({ control, name, items }: TFormCheckbox) {
+export function FormCheckbox({ control, name, items, className }: TFormCheckbox) {
   return (
-    <div className="border">
+    <div className={`border `+className}>
       <FormField
         control={control}
         name={name}
@@ -200,9 +200,6 @@ export function FormTextArea({
                 {...field}
               />
             </FormControl>
-            <FormDescription>
-              You can <span>@mention</span> other users and organizations.
-            </FormDescription>
             <FormMessage />
           </FormItem>
         )}

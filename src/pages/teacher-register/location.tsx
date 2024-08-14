@@ -60,77 +60,96 @@ export default function Location({ form }: { form: any }) {
   }, [city]);
 
   return (
-    <div className="flex flex-col gap-4 pt-4 lg:pt-8">
-      <Heading
-        title="Yeriniz"
-        subtitle="Yasadiginiz ili ve ilceyi girin"
-      />
-      <Input
-        type="text"
-        placeholder="Yasadiginiz ili ve ilceyi girin"
-        onChange={(e) => setSearch(e.currentTarget.value)}
-      />
-      {cities.length > 0 && (
-        <>
-          <FormField
-            control={form.control}
-            name="city"
-            render={({ field }) => (
-              <FormItem>
-                <Select
-                  onValueChange={field.onChange}
-                  defaultValue={field.value}
-                >
-                  <FormControl>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Ilinizi secin" />
-                    </SelectTrigger>
-                  </FormControl>
-                  <SelectContent>
-                    {cities.map((option, index) => (
-                      <SelectItem key={index} value={option}>
-                        {option}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-        </>
-      )}
+    <div className="flex flex-col md:px-32  md:py-16 md:flex-row gap-4 md:m-6 w-full">
+      <div className=" md:mr-16 md:w-full bg-rose-100 rounded-3xl flex flex-col md:order-1 order-2 p-6  ">
+        <Heading title="Bilgi" classNameTitle=" text-5xl mb-6"></Heading>
+        <div>
+          <br />
+          <p>Lütfen yaşadığınız yeri belirtiniz.</p>
+          <br />
+          <p>
+            Bu bilgiyle sizinle aynı yerde yaşayan ve ders talebi olan öğrenicleri sizinle buluşturacağız.
+          </p>
+          <br />
+          <p>
+            Merak etmeyin, bir sonraki adımda yaşadığınız ilçe dışında da ders verebileceğiniz ilçeleri seçmenizi isteyeceğiz.
+          </p>
+          <br />
+          <p>
+            Hem siz aynı bölgede yaşadığınız öğrencilere gösterileceksiniz, hem de ders taleplerini görürken size yakın kişilere ulaşmış olacaksınız.
+          </p>
+        </div>
+      </div>
 
-      {districts.length > 0 && (
-        <>
-          <FormField
-            control={form.control}
-            name="district"
-            render={({ field }) => (
-              <FormItem>
-                <Select
-                  onValueChange={field.onChange}
-                  defaultValue={field.value}
-                >
-                  <FormControl>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Ilcenizi secin" />
-                    </SelectTrigger>
-                  </FormControl>
-                  <SelectContent>
-                    {districts.map((option, index) => (
-                      <SelectItem key={index} value={option}>
-                        {option}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-        </>
-      )}
+      <div className="flex flex-col p-12 w-full rounded-xl shadow-md md:order-2 order-1 ">
+        <Heading title="Yeriniz" subtitle="Yasadiginiz ili ve ilceyi girin" />
+        <Input
+          type="text"
+          placeholder="Yasadiginiz ili ve ilceyi girin"
+          onChange={(e) => setSearch(e.currentTarget.value)}
+        />
+        {cities.length > 0 && (
+          <>
+            <FormField
+              control={form.control}
+              name="city"
+              render={({ field }) => (
+                <FormItem>
+                  <Select
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                  >
+                    <FormControl>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Ilinizi secin" />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      {cities.map((option, index) => (
+                        <SelectItem key={index} value={option}>
+                          {option}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </>
+        )}
+
+        {districts.length > 0 && (
+          <>
+            <FormField
+              control={form.control}
+              name="district"
+              render={({ field }) => (
+                <FormItem>
+                  <Select
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                  >
+                    <FormControl>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Ilcenizi secin" />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      {districts.map((option, index) => (
+                        <SelectItem key={index} value={option}>
+                          {option}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </>
+        )}
+      </div>
     </div>
   );
 }

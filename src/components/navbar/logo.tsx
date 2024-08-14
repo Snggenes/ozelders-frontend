@@ -7,9 +7,8 @@ export default function Logo() {
     <img
       alt="logo"
       className="cursor-pointer hidden md:block"
-      height={100}
-      width={100}
-      src="/logo.svg"
+      width={200}
+      src="/logo.png"
       onClick={() => navigate("/")}
     />
   );

@@ -1,4 +1,3 @@
-import Container from "@/components/container";
 import { Button } from "@/components/ui/button";
 
 const LandingCard = () => {
@@ -9,7 +8,7 @@ const LandingCard = () => {
       <div className="flex md:ml-32 md:mr-48 flex-col justify-center lg:flex-row md:h-[300px] lg:h-[500px] items-center">
         <div className="order-2 md:order-1 mt-8 lg:mt-0 w-full lg:w-1/2 pb-8">
           <h1 className="text-5xl te text-center font-bold text-black mb-4">
-            Sizin icin en iyi öğretmeni bulun.
+            Hedefleriniz için en iyi öğretmeni bulun.
           </h1>
           <div className="flex justify-center">
             <Button className="bg-rose-400 w-1/2 text-lg text-white py-2 px-4 transition rounded hover:bg-rose-400">
