@@ -1,4 +1,4 @@
-import { FormCheckbox } from "@/components/form-elements";
+import { FormCheckbox, FormInput } from "@/components/form-elements";
 import { Input } from "@/components/ui/input";
 import { TLesson } from "@/lib/types";
 import { useEffect, useState } from "react";
@@ -20,6 +20,7 @@ export default function Lessons({ control }: { control: any }) {
   }, [search]);
 
   return (
+<>
     <div className="flex flex-col md:px-32  md:py-16 md:flex-row gap-4 md:m-6 w-full">
       <div className=" md:mr-16 md:w-full bg-rose-100 rounded-3xl flex flex-col md:order-1 order-2 p-6  ">
         <Heading title="Bilgi" classNameTitle=" text-5xl mb-6"></Heading>
@@ -54,5 +55,26 @@ export default function Lessons({ control }: { control: any }) {
         />
       </div>
     </div>
+    <>
+      <Input
+        type="text"
+        placeholder="Vermek istediginiz dersi girin"
+        onChange={(e) => setSearch(e.currentTarget.value)}
+      />
+      <FormCheckbox
+        control={control}
+        placeholder="Vermek istediginiz dersleri secin"
+        name="lessons"
+        items={items}
+      />
+      <FormInput
+        type="number"
+        placeholder="Saatlik ucretinizi girin"
+        name="lessonPrice"
+        label="Saatlik ucret"
+        control={control}
+      />
+    </>
+    </>
   );
 }

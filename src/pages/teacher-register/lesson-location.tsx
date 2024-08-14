@@ -33,8 +33,6 @@ export default function LessonLocation({ form }: { form: any }) {
     fetchDistricts();
   }, [city]);
 
-  console.log("lessonDistricts", lessonDistricts);
-
   return (
     <div className="flex flex-col md:px-32  md:py-16 md:flex-row gap-4 md:m-6 w-full">
       <div className=" md:mr-16 md:w-full bg-rose-100 rounded-3xl flex flex-col md:order-1 order-2 p-6  ">
